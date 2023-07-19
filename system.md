@@ -15,9 +15,9 @@ Author: Keivn Hu
 # General Approach
 
  - 5 card Major, 1C=16+; 1D=1+!D, 11-15; 1NT=13-16, no 5M, no 6m, no (5422); 2C=5!C+4M OR 6!C, 11-15.
- - Transfer GF responses to 1!C
+ - Transfer GF responses to 1C
  - INV+ Relay after 1 level opening (excluding 1C), relay twice is GF. Most of other bids are (6)8-11 NAT, NF.
-   - 1D - 1H: 4!H OR ART INV+
+   - 1D - 1H: 4!H weak OR ART GF
    - 1M - 2C: ART INV+
   
 # Opening structure
