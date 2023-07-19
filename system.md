@@ -14,10 +14,10 @@ Author: Keivn Hu
 
 # General Approach
 
- - 5 card Major, 1C=16+; 1D=1+!D, 11-15; 1NT=13-16, no 5M, no 6m, no (5422); 2C=5!C+4M OR 6!C, 11-15.
+ - 5 card Major, 1C=16+; 1D=1+<font color=orange>&diams;</font>, 11-15; 1NT=13-16, no 5M, no 6m, no (5422); 2C=5<font color=green>&clubs;</font>+4M OR 6<font color=green>&clubs;</font>, 11-15.
  - Transfer GF responses to 1C
  - INV+ Relay after 1 level opening (excluding 1C), relay twice is GF. Most of other bids are (6)8-11 NAT, NF.
-   - 1D - 1H: 4!H weak OR ART GF
+   - 1D - 1H: 4<font color=red>&hearts;</font> weak OR ART GF
    - 1M - 2C: ART INV+
   
 # Opening structure
@@ -25,13 +25,13 @@ Author: Keivn Hu
  - 1C: 16+ semi-bal, or 17+ bal
  - 1D: can include
    - 11-12 Perfect-BAL
-   - 6+!D
-   - 5!D + 4 other
-   - 5!C + no 4M
-   - any 3 suiter (including !D shortage)
+   - 6+<font color=orange>&diams;</font>
+   - 5<font color=orange>&diams;</font> + 4 other
+   - 5<font color=green>&clubs;</font> + no 4M
+   - any 3 suiter (including <font color=orange>&diams;</font> shortage)
   - 1M: 11-15, 5M
   - 1NT: 13-16, Perfect-BAL (minor 5332, 4432, 4333)
-  - 2C: 11-15, 6!C OR 5!C+4M
+  - 2C: 11-15, 6<font color=green>&clubs;</font> OR 5<font color=green>&clubs;</font>+4M
   - 2D & 2M: pre-empt of preference.
   - 2NT: minors 55
   - 3x: pre-empt of preference.
@@ -89,7 +89,7 @@ The enquirer can choose to keycard in any suit. This is very beneficial if the e
 The default relay bid is to keycard in responder's first suit. +2 bid for relay is in responder's second longest suit. +3/+4 are so on.<br>
 In case of 2 suits are the same length, major first, then lower first. 
 
-E.g. if p is 4225, then +1 = !C (longer), +2 = !H, +3 = !S (Major first), +4 = !D
+E.g. if p is 4225, then +1 = <font color=green>&clubs;</font> (longer), +2 = <font color=red>&hearts;</font>, +3 = <font color=blue>&spades;</font> (Major first), +4 = <font color=orange>&diams;</font>
 
 
 We recommend RKCB, while even/odd responses can be used.
@@ -124,47 +124,86 @@ Respond side suit J in the same way as K/Q. If there are more space, the next re
    4. 
 ## Exact relay definition
 ### 1C - 1H - 1S, could jumped earlier
-1NT (waiting bid) shows the higher suit (!S), any other bid shows !H. This applies in competition where X is !S, P or any other bid shows !H.
-- 1NT: 5!S
-- 2C: 4!C. (R2D)
-  - 2H: 6+!H, =4!C (R2S)
-    - 2NT: replaces 3D, !D shortage, =2614
-    - 3C: replaces 3S, !S shortage, =1624
-    - 3H: 7!H, =1714
-  - 2S: 1!S, =1534 (R2NT = kc in !H) 
+1NT (waiting bid) shows the higher suit (<font color=blue>&spades;</font>), any other bid shows <font color=red>&hearts;</font>. This applies in competition where X is <font color=blue>&spades;</font>, P or any other bid shows <font color=red>&hearts;</font>.
+- 1NT: 5<font color=blue>&spades;</font>
+- 2C: 4<font color=green>&clubs;</font>. (R2D)
+  - 2H: 6+<font color=red>&hearts;</font>, =4<font color=green>&clubs;</font> (R2S)
+    - 2NT: replaces 3D, <font color=orange>&diams;</font> shortage, =2614
+    - 3C: replaces 3S, <font color=blue>&spades;</font> shortage, =1624
+    - 3H: 7<font color=red>&hearts;</font>, =1714
+  - 2S: 1<font color=blue>&spades;</font>, =1534 (R2NT = kc in <font color=red>&hearts;</font>) 
   - 2NT: 22, =2524
-  - 3C: 5!C. Deny void generally (R3D)
-    - 3H: 6!H, 5!C, =1615
-    - 3S: !S shortage, =1525
-    - 3NT: replaces 4D, !D shortage, =2515
-    - 4C: 6!C, implies 6!H, take it slow so lower shortage, =1606
-    - 4D: originally meaningless, implies longer !H, =1705
-  - 3D: 1!D, =3514
-  - 3H: 7!H, jump implies void (R3S for void if couldn't jump to differentiate void)
-- 2D: 4!D. (R2H)
+  - 3C: 5<font color=green>&clubs;</font>. Deny void generally (R3D)
+    - 3H: 6<font color=red>&hearts;</font>, 5<font color=green>&clubs;</font>, =1615
+    - 3S: <font color=blue>&spades;</font> shortage, =1525
+    - 3NT: replaces 4D, <font color=orange>&diams;</font> shortage, =2515
+    - 4C: 6<font color=green>&clubs;</font>, implies 6<font color=red>&hearts;</font>, take it slow so lower shortage, =1606
+    - 4D: originally meaningless, implies longer <font color=red>&hearts;</font>, =1705
+  - 3D: 1<font color=orange>&diams;</font>, =3514
+  - 3H: 7<font color=red>&hearts;</font>, jump implies void (R3S for void if couldn't jump to differentiate void)
+- 2D: 4<font color=orange>&diams;</font>. (R2H)
   - TODO
-- 2H: 6!H, denies side suit (R2S)
-  - 2NT: replaces 3S, shows 1!S, =1633
-  - 3C: 1!C, =3631
-  - 3D: 1!D, =3613
-  - 3H: 7!H, 1H-2H-3H, low shortage, 1!C, 7!H, (32)
-- 2S: 4!S
+- 2H: 6<font color=red>&hearts;</font>, denies side suit (R2S)
+  - 2NT: replaces 3S, shows 1<font color=blue>&spades;</font>, =1633
+  - 3C: 1<font color=green>&clubs;</font>, =3631
+  - 3D: 1<font color=orange>&diams;</font>, =3613
+  - 3H: 7<font color=red>&hearts;</font>, 1H-2H-3H, low shortage, 1<font color=green>&clubs;</font>, 7<font color=red>&hearts;</font>, (32)
+- 2S: 4<font color=blue>&spades;</font>
 - 2NT: 5332 (R3C for LMH doubleton)
+
+### 1C - 1S (Bal), (R1NT)
+Transfer to 1NT shows a balanced hand. This could include perfectly balanced ones including 4432, 4333, and semi-balanced ones including 5332 with 5m, and 4441.
+
+1. 4333: bid the suit and then NT
+2. 4432: bid 4 card suits up the line, and then your 3 card suit to complete the shape.
+   1. If the second 4 card suit is the relay bid, then skip all bids that shows any 4 card suit, skip 2NT that shows a 4333, use 3C/3D to show the 3 card suit and a touching 4 card suit.
+   2. If the next 2 bid matches the 2 unbid 3 card suit, then bid the matching one.
+   3. If one of the bid matches the 2 unbid 3-card suit, then the one matches shows that suit.
+   4. If both bids don't match, then the lower bid matches the lower suit
+3. 5332: Use 2NT for 5<font color=green>&clubs;</font> and 3C for 5<font color=orange>&diams;</font>
+4. 4441: 3D-3NT. 3D-3S shows matching singleton and 3NT shows <font color=green>&clubs;</font> singleton.
+
+ - 2C: 4<font color=green>&clubs;</font>, 4333/4432 (R2D)
+   - 2H: 4<font color=red>&hearts;</font> (R2S)
+     - 2NT: 3<font color=orange>&diams;</font>
+     - 3C: 3<font color=blue>&spades;</font>
+   - 2S: 4<font color=blue>&spades;</font> (R2NT)
+     - 3C: 3<font color=red>&hearts;</font>
+     - 3D: 3<font color=orange>&diams;</font>
+   - 2NT: =3334
+   - 3C: 4<font color=orange>&diams;</font>, lower 3 card suit (<font color=red>&hearts;</font>), =2344
+   - 3D: 4<font color=orange>&diams;</font>, higher 3 card suit (<font color=blue>&spades;</font>), =3244
+ - 2D: 4<font color=orange>&diams;</font>, deny 4<font color=green>&clubs;</font> (R2H)
+   - 2S: 4<font color=blue>&spades;</font> (R2NT)
+     - 3C: 3<font color=green>&clubs;</font>
+     - 3D: 3<font color=red>&hearts;</font>
+   - 2NT: =3343
+   - 3C: =2443
+   - 3D: =3442
+ - 2H: 4<font color=red>&hearts;</font>, deny 4m (R2S)
+   - 2NT: =3433
+   - 3C: =4423
+   - 3D: =4432
+ - 2S: 4<font color=blue>&spades;</font>, =4333
+ - 2NT: 5<font color=green>&clubs;</font>, 5332, relay for doubleton
+ - 3C: 5<font color=orange>&diams;</font>, 5332, relay for doubleton
+ - 3D~3NT: 4441. All bids except 3NT are keycard.
+
 ### 1C - 2D (6H, void/bal), (R2H)
- - 2S: 4!S (R2NT)
-   - 3C: !C shortage, =4630
-   - 3D: !D shortage, =4603
-   - 3H: 7!H, =4!S
-   - 3S: 5!S, implies 6!H, and low shortage (didn't jump again), =5620
+ - 2S: 4<font color=blue>&spades;</font> (R2NT)
+   - 3C: <font color=green>&clubs;</font> shortage, =4630
+   - 3D: <font color=orange>&diams;</font> shortage, =4603
+   - 3H: 7<font color=red>&hearts;</font>, =4<font color=blue>&spades;</font>
+   - 3S: 5<font color=blue>&spades;</font>, implies 6<font color=red>&hearts;</font>, and low shortage (didn't jump again), =5620
  - 2NT: 6322 (R3C for LMH tripleton)
- - 3C: 4!C
- - 3D: 4!D
- - 3H: 7!H, middle shortage, 1!D, (32)
- - 3S: 5!S, implies 6!H, and high shortage, =5602
+ - 3C: 4<font color=green>&clubs;</font>
+ - 3D: 4<font color=orange>&diams;</font>
+ - 3H: 7<font color=red>&hearts;</font>, middle shortage, 1<font color=orange>&diams;</font>, (32)
+ - 3S: 5<font color=blue>&spades;</font>, implies 6<font color=red>&hearts;</font>, and high shortage, =5602
 
 # 1D Opening
 1H: weak NAT or INV+
- - 6-11, 4!H
+ - 6-11, 4<font color=red>&hearts;</font>
  - 12+ INV+
 1NT: 8-11 Note: be prepared for a 11-12 bal NT or 2NT invite
 2m: 5-11, 5+
@@ -175,20 +214,20 @@ Respond side suit J in the same way as K/Q. If there are more space, the next re
 ## 1D - 1H
 The opener have 6 types of hands.
 1. 11-12 Perfect-BAL
-2. 6+!D
-3. 5+!D + 4M
+2. 6+<font color=orange>&diams;</font>
+3. 5+<font color=orange>&diams;</font> + 4M
 4. Both minors
-5. 4441 (including !D shortage)
-6. 5440 with 5!D
+5. 4441 (including <font color=orange>&diams;</font> shortage)
+6. 5440 with 5<font color=orange>&diams;</font>
 
 Principal: always show majors first ignore NT and H fit. 
 
-1S: 4!S, may have 4!H
-1NT: no 4M. 
-2C: 5!C + 4+!D
-2D: 6+!D OR 5!D+4!C
-2H: 4!H, no 4!S
-2S,3m: 4441, max (14-15), go through 1S/2H if min
-3M/4C: 4450
-2NT/3D/3NT: D
+ - 1S: 4<font color=blue>&spades;</font>, may have 4<font color=red>&hearts;</font>
+ - 1NT: no 4M. 
+ - 2C: 5<font color=green>&clubs;</font> + 4+<font color=orange>&diams;</font>
+ - 2D: 6+<font color=orange>&diams;</font> OR 5<font color=orange>&diams;</font>+4<font color=green>&clubs;</font>
+ - 2H: 4<font color=red>&hearts;</font>, no 4<font color=blue>&spades;</font>
+ - 2S,3m: 4441, max (14-15), go through 1S/2H if min
+ - 3M/4C: 4450
+ - 2NT/3D/3NT: D
 
