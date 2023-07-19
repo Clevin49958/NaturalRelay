@@ -47,7 +47,7 @@ General principle when showing shape in relay:
 1. Bid your first suit, then always second suit, then shortage
    - 54: first then second
    - 64: first then second
-  If there is a lower bid available and meaningless, use it to replace highest bid.
+   - If there is a lower bid available and meaningless, use it to replace highest bid to show shortage.
 2. If you rebid your suit, it's one card longer
    - 6: bid your first suit twice
    - 64: first suit, then second suit, then first suit again
