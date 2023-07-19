@@ -161,3 +161,34 @@ Respond side suit J in the same way as K/Q. If there are more space, the next re
  - 3D: 4!D
  - 3H: 7!H, middle shortage, 1!D, (32)
  - 3S: 5!S, implies 6!H, and high shortage, =5602
+
+# 1D Opening
+1H: weak NAT or INV+
+ - 6-11, 4!H
+ - 12+ INV+
+1NT: 8-11 Note: be prepared for a 11-12 bal NT or 2NT invite
+2m: 5-11, 5+
+2M: 8-, 6+ suit. No game interest.
+2NT: INV opps 11-12
+3x: NAT, no game interest
+
+## 1D - 1H
+The opener have 6 types of hands.
+1. 11-12 Perfect-BAL
+2. 6+!D
+3. 5+!D + 4M
+4. Both minors
+5. 4441 (including !D shortage)
+6. 5440 with 5!D
+
+Principal: always show majors first ignore NT and H fit. 
+
+1S: 4!S, may have 4!H
+1NT: no 4M. 
+2C: 5!C + 4+!D
+2D: 6+!D OR 5!D+4!C
+2H: 4!H, no 4!S
+2S,3m: 4441, max (14-15), go through 1S/2H if min
+3M/4C: 4450
+2NT/3D/3NT: D
+
