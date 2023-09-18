@@ -1,6 +1,6 @@
 # Natural Relay
 
-Author: Keivn Hu
+Author: Kevin Hu and Jerry Chen
 
 # Glossary
  - ART: artificial
