@@ -43,7 +43,7 @@ def generate_anchor_tags(input):
     input = re.sub(pattern, f"{heading_level} {anchor_tag} {heading_text}\n", input, count=1) # replace heading with anchor tag
   return input
 
-filename = "system"
+filename = "NaturalRelay"
 # Open the file in read and write mode
 with open(f"src/{filename}.md", "r+") as file:
   # Read the input string from the file

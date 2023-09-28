@@ -2,12 +2,14 @@
 
 Author: Kevin Hu and Jerry Chen
 
+Version: 1.0.1
+
 # Glossary
  - ART: artificial
  - NF: non-forcing
  - GF: game forcing
  - INV: invitational
- - M/m: **M**ajor/**m**inor
+ - !M/!m: **M**ajor/**m**inor
  - L/M/H: low, middle, higher suit
  - Rxx: relay with xx. E.g. R2!D: relay with 2!D (meaningless)
  - kc (lower case): keycard
@@ -31,8 +33,9 @@ Author: Kevin Hu and Jerry Chen
    - any 3 suiter (including !D shortage)
   - 1M: 11-15, 5M
   - 1NT: 13-16, Perfect-BAL (minor 5332, 4432, 4333)
-  - 2!C: 11-15, 6!C OR 5!C+4M
-  - 2!D & 2M: pre-empt of preference.
+  - 2!C: 11-15, 6+!C OR 5!C+4M
+  - 2!D: 11-15, 6+!D, no 4 card side suit
+  - 2!M: weak 2s
   - 2NT: minors 55
   - 3x: pre-empt of preference.
   - 3NT: Gambling.
@@ -202,14 +205,14 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
  - 3!S: 5!S, implies 6!H, and high shortage, =5602
 
 # 1!D Opening
-1!H: weak NAT or INV+
- - 6-11, 4!H
- - 12+ INV+
-1NT: 8-11 Note: be prepared for a 11-12 bal NT or 2NT invite
-2m: 5-11, 5+
-2M: 8-, 6+ suit. No game interest.
-2NT: INV opps 11-12
-3x: NAT, no game interest
+ - 1!H: weak NAT or INV+
+ -  - 6-11, 4!H
+ -  - 12+ INV+
+ - 1NT: 8-11 Note: be prepared for a 11-12 bal NT or 2NT invite
+ - 2m: 5-11, 5+
+ - 2M: 8-, 6+ suit. No game interest.
+ - 2NT: INV opps 11-12
+ - 3x: NAT, no game interest
 
 ## 1!D - 1!H
 The opener have 6 types of hands.
@@ -231,3 +234,21 @@ Principal: always show majors first ignore NT and H fit.
  - 3M/4!C: 4450
  - 2NT/3!D/3NT: D
 
+### 2!C - 2!D
+2!D: ART, INV+
+
+ - 2!H: 4!H,
+ - 2!S: 4!S,
+ - 2NT: max, 6+!C (R3!C)
+   - 3!D: (331)6 (R3!H)
+     - 3!S: =1336
+     - 3NT: =3136
+     - 4!C: **=3316** (skipping 3NT requires both majors)
+   - 3!H: =2326
+   - 3!S: =3226
+   - 3NT: =2236
+ - 3!C: min, 6+!C (R3!D: same as above)
+ - 3!D: max, 6!C, 4!D
+ - 3!H: max, 7330
+ - 3!S: max, 7321
+ - 3NT: max: 7222
