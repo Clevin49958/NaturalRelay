@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 1.0.1
+Version: 1.1.0
 
 # Glossary
  - ART: artificial
@@ -62,7 +62,9 @@ Version: 1.0.1
   - [1!C - 2!D (6!H, void/bal), (R2!H)](#1c---2d-6h-voidbal-r2h)
 - [1!D Opening](#1d-opening)
   - [1!D - 1!H](#1d---1h)
-    - [2!C - 2!D](#2c---2d)
+- [2!C Opening](#2c-opening)
+  - [2!C - 2!D](#2c---2d)
+- [2!D Opening](#2d-opening)
 
 
 # Relay Guideline
@@ -290,7 +292,20 @@ Principal: always show majors first ignore NT and H fit.
  - 3M/4!C: 4450
  - 2NT/3!D/3NT: D
 
-### 2!C - 2!D
+# 2!C Opening
+6+!C or 5+!C + 4!M, 11-15.
+
+First response:
+
+ - 2!D: ART, INV+, relay
+ - 2!M: NAT, nf
+ - 2NT: bal, INV
+ - 3!C: pre-emptive
+ - 3!D: pre-emptive
+ - 3!M: GF, NAT, 6+
+ - 3NT: To play
+
+## 2!C - 2!D
 2!D: ART, INV+
 
  - 2!H: 4!H,
@@ -308,3 +323,27 @@ Principal: always show majors first ignore NT and H fit.
  - 3!H: max, 7330
  - 3!S: max, 7321
  - 3NT: max: 7222
+
+# 2!D Opening
+6+!D, no 4 card side suit, (10)11-15.
+
+First response:
+
+ - 2!M: NAT, 5+, INV+, F1
+   - 2NT: Max, no fit
+   - 2!S/3!H (!oM): splinter agreeing !M
+   - 3!C: splinter agreeing !M
+   - 3!D: min, no fit
+   - 3!M: support, no shortage, min
+   - 3NT: support, no shortage, max
+ - 2NT: ART, GF, relay
+   - 3!C: 7+ with shortage (R3!D)
+     - 3!H/3!S/3NT: !H/!S/!C shortage
+   - 3!D/3!H/3!S: 6331, !C/!H/!S shortage
+   - 3NT: no shortage
+ - 3!C: ART, INV+ for !D/NT
+   - 3!D: min
+   - 3!M: max, you play 3NT
+   - 3NT: To play
+ - 3!D: pre-emptive
+
