@@ -40,6 +40,31 @@ Version: 1.0.1
   - 3x: pre-empt of preference.
   - 3NT: Gambling.
 
+# Table of Contents
+- [Natural Relay](#natural-relay)
+- [Glossary](#glossary)
+- [General Approach](#general-approach)
+- [Opening structure](#opening-structure)
+- [Table of Contents](#table-of-contents)
+- [Relay Guideline](#relay-guideline)
+  - [Step 1: shape](#step-1-shape)
+  - [Step 2: Sign-off/Keycard](#step-2-sign-offkeycard)
+    - [Keycard procedure](#keycard-procedure)
+      - [Range](#range)
+      - [Keycard - A](#keycard---a)
+      - [Keycard - K/Q](#keycard---kq)
+      - [Keycard - J](#keycard---j)
+  - [Shape classification](#shape-classification)
+- [Exact relay definition](#exact-relay-definition)
+  - [1!C - 1!H (R1!S)](#1c---1h-r1s)
+  - [5!M relay](#5m-relay)
+  - [1!C - 1!S (Bal), (R1NT)](#1c---1s-bal-r1nt)
+  - [1!C - 2!D (6!H, void/bal), (R2!H)](#1c---2d-6h-voidbal-r2h)
+- [1!D Opening](#1d-opening)
+  - [1!D - 1!H](#1d---1h)
+    - [2!C - 2!D](#2c---2d)
+
+
 # Relay Guideline
 
 ## Step 1: shape
@@ -125,10 +150,11 @@ Respond side suit J in the same way as K/Q. If there are more space, the next re
    2. 5~7+4: 5431(22), 5440,  6421, 6430, 7411
    3. 55+: 5521, 5530, 6511, 6520, 6610
    4. 
-## Exact relay definition
-### 1!C - 1!H - 1!S, could jumped earlier
-1NT (waiting bid) shows the higher suit (!S), any other bid shows !H. This applies in competition where X is !S, P or any other bid shows !H.
-- 1NT: 5!S
+# Exact relay definition
+## 1!C - 1!H (R1!S)
+1NT (waiting bid) shows the higher suit (!S), any other bid shows !H. This applies in competition where X/XX is !S, P or any other bid shows !H.
+- 1NT: 5!S (R2!C)
+  - See [5!M relay](#5m-relay)
 - 2!C: 4!C. (R2!D)
   - 2!H: 6+!H, =4!C (R2!S)
     - 2NT: replaces 3!D, !D shortage, =2614
@@ -146,15 +172,45 @@ Respond side suit J in the same way as K/Q. If there are more space, the next re
   - 3!H: 7!H, jump implies void (R3!S for void if couldn't jump to differentiate void)
 - 2!D: 4!D. (R2!H)
   - TODO
-- 2!H: 6!H, denies side suit (R2!S)
-  - 2NT: replaces 3!S, shows 1!S, =1633
-  - 3!C: 1!C, =3631
-  - 3!D: 1!D, =3613
-  - 3!H: 7!H, 1!H-2!H-3!H, low shortage, 1!C, 7!H, (32)
-- 2!S: 4!S
-- 2NT: 5332 (R3!C for LMH doubleton)
+- 2!H+: See [5!M relay](#5m-relay)
 
-### 1!C - 1!S (Bal), (R1NT)
+## 5!M relay
+5!M relay response starts after 2!C. 
+
+Applicable situations include: 
+ - 1!M - 2!C
+ - 1!C - 1!H (- 1!S - 1NT) - 2!C
+
+Key concept: 
+ - !minor compression: 2!D shows an unknown 4+m. R2!H, 2!S=!D, anything else shows !C.
+ - 2!H and 2!S are the same regardless of which !Major relayee has.
+
+Relay: 
+ - 2!D: unknown 4+!m (R2!H)
+   - 2!S: !m=!D (R2NT)
+     - Natural relay continuation
+   - 2NT: 5422, unknown !minor (R3!C)
+     - 3!D: min, (R3!H)
+       - 3!S/3NT: !C/!D
+     - 3!H/3!S: max, !C/!D
+   - 3!C+: !m=!C, Natural relay continuation
+ - 2!H: Single suited !M. 5322/6322/7321 (R2!S)
+   - 2NT: 6(322)/7(321) (R3!C)
+     - 3!D/3!oM/3NT: 6322, 3 in !D/!oM/!C 
+     - 3!M: 7(32)1, low shortage
+   - 3!C/3!D/3!oM: 5332, 2 in !C/!D/!oM
+   - 3!M: 7(32)1, middle shortage
+ - 2!S: 4!oM
+ - 2NT: 6(331) (R3!C)
+   - 3!D/3!oM/3NT: !D/!oM/!C shortage
+   - 3!M: ? //TODO
+ - 3!C: 55, implies void
+ - 3!D: 55, implies void
+ - 3!M: 7(32)1, high shortage
+ - 3NT: 7222
+
+
+## 1!C - 1!S (Bal), (R1NT)
 Transfer to 1NT shows a balanced hand. This could include perfectly balanced ones including 4432, 4333, and semi-balanced ones including 5332 with 5m, and 4441.
 
 1. 4333: bid the suit and then NT
@@ -192,7 +248,7 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
  - 3!C: 5!D, 5332, relay for doubleton
  - 3!D~3NT: 4441. All bids except 3NT are keycard.
 
-### 1!C - 2!D (6!H, void/bal), (R2!H)
+## 1!C - 2!D (6!H, void/bal), (R2!H)
  - 2!S: 4!S (R2NT)
    - 3!C: !C shortage, =4630
    - 3!D: !D shortage, =4603
