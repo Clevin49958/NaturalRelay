@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 2.0.1
+Version: 2.1.0
 
 # Glossary
  - ART: artificial
@@ -55,6 +55,9 @@ Version: 2.0.1
   - [5!M relay](#5m-relay)
   - [1!C - 1!S (Bal), (R1NT)](#1c---1s-bal-r1nt)
   - [1!C - 2!D (6!H, void)](#1c---2d-6h-void)
+- [Relay after interference](#relay-after-interference)
+  - [2!S (R2NT) Balanced hand](#2s-r2nt-balanced-hand)
+  - [2NT balanced hand](#2nt-balanced-hand)
 - [1!D Opening](#1d-opening)
   - [1!D - 1!H](#1d---1h)
     - [1!D - 1!H - 1!S](#1d---1h---1s)
@@ -269,6 +272,37 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
  - 3!C: 4!C
  - 3!D: 4!D
  - 3!S: 5!S, implies 6!H, and high shortage, =5602
+
+# Relay after interference
+
+## 2!S (R2NT) Balanced hand
+ - 3!C: 5!C or 4!C+ 4!M (R3!D)
+   - 3!M: 44
+   - 3NT: 5!C
+ - 3!D: 4!D + 4!M (R3!H)
+   - 3!S/3NT: !S/!H
+ - 3!H: 4!H could have 4!S (R3!S promise 4!S)
+   - 3NT: =3433
+   - 4!C/!D: singleton. =4441/=4414
+     - 4!D/4NT: !S keycard
+   - 4!H: 4!S, 44(32)
+     - 4NT: !S keycard
+ - 3!S: =4333
+ - 3NT: 33(43), (23)44, 5!D(332)
+
+## 2NT balanced hand
+ - 3!C: stayman
+   - 3!D: No
+     - 3!M: 54
+       - 3!S/4x: keycard response agreeing !M
+   - 3!M: 4
+     - 3!S/4NT: keycard agreeing !M
+     - 4!m: NAT
+   - 3NT: both
+     - 4!m: tied major keycard SI
+       - 4!m+1: min
+         - 4!M: sign-off
+       - 4!M+: keycard response
 
 # 1!D Opening
 1!D is 4+!D 2 or 3 suiter. Specifically 4!D(441), 5!D(440), and any !D two suiter.  
