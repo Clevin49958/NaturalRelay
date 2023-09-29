@@ -336,7 +336,7 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 1NT: 5+!D, 4+!C.
 
 Responses:
- - [2!C relay](#1d---1h---1nt2c---2c2d)
+ - [2!C relay](#1d---1h---1nt2c---2c2d-relay)
  - 2!D/2!H/3!C: to play
  - **2!S: INV for !C**
  - 2NT: INV for NT
@@ -352,7 +352,7 @@ Responses:
 2!C: 5+!C, 4+!D.
 
 Responses:
- - [2!D relay](#1d---1h---1nt2c---2c2d)
+ - [2!D relay](#1d---1h---1nt2c---2c2d-relay)
  - 2!H/3!D: to play
  - **2!S: INV for !D**
  - 2NT: INV for NT
