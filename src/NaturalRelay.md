@@ -410,7 +410,7 @@ Opener is (45+) in the minors.
  - 1NT = longer !D
  - 2!C = longer !C
  
-Followed by GF relay. Notes: highly recommand to swap 2!M with 3!m
+Followed by GF relay.
 
  - (2!C) 2!D: =2254, does not want to declare NT.
    - 2!H: forces 2!S
