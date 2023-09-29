@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 2.0.0
+Version: 2.0.1
 
 # Glossary
  - ART: artificial
@@ -482,12 +482,11 @@ First response
 
 ## 1NT - 2!C
  - 2!D: no 4!M (R2!S)
-   - 2NT: 5!C, 5(332) or **=2245**
+   - 2NT: 5!C, 5(332)
    - 3!C: 5!D, 5(332)
    - 3!D: =33(43)
    - 3!H: =2344
    - 3!S: =3244
-   - 3NT: **=2254**
  - 2!H: 4!H (R2!S)
    - 2NT: =3433
    - 3!C: 4!C (R3!D)
@@ -500,10 +499,8 @@ First response
    - 3NT: **=2452**
  - 2!S: 4!S (R3!C)
    - 3!D: 4!D
-   - 3!H: **4!C (R3!S)**
-     - 3NT: =4234
-     - 4!C: =4324
-   - 3!S: **=4252**
+   - 3!H: =4324
+   - 3!S: =4234
    - 3NT: =4333
 
 # 2!C Opening
