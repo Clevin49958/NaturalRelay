@@ -54,7 +54,7 @@ Version: 2.0.0
   - [1!C - 1!H (R1!S)](#1c---1h-r1s)
   - [5!M relay](#5m-relay)
   - [1!C - 1!S (Bal), (R1NT)](#1c---1s-bal-r1nt)
-  - [1!C - 2!D (6!H, void/bal), (R2!H)](#1c---2d-6h-voidbal-r2h)
+  - [1!C - 2!D (6!H, void)](#1c---2d-6h-void)
 - [1!D Opening](#1d-opening)
   - [1!D - 1!H](#1d---1h)
     - [1!D - 1!H - 1!S](#1d---1h---1s)
@@ -259,22 +259,21 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
  - 3!C: 5!D, 5332, relay for doubleton
  - 3!D~3NT: 4441. All bids except 3NT are keycard.
 
-## 1!C - 2!D (6!H, void/bal), (R2!H)
+## 1!C - 2!D (6!H, void)
  - 2!S: 4!S (R2NT)
    - 3!C: !C shortage, =4630
    - 3!D: !D shortage, =4603
    - 3!H: 7!H, =4!S
    - 3!S: 5!S, implies 6!H, and low shortage (didn't jump again), =5620
- - 2NT: 6322 (R3!C for LMH tripleton)
+ - 2NT: 7330 (R3!C for LMH void)
  - 3!C: 4!C
  - 3!D: 4!D
- - 3!H: 7!H, middle shortage, 1!D, (32)
  - 3!S: 5!S, implies 6!H, and high shortage, =5602
 
 # 1!D Opening
 1!D is 4+!D 2 or 3 suiter. Specifically 4!D(441), 5!D(440), and any !D two suiter.  
 
- - 1!H: weak NAT or INV+
+ - 1!H: [NAT or INV+](#1d---1h)
    - 6-11, 4!H
    - 12+ INV+
  - 1!S: 4+!S, 6-11, NF
@@ -288,12 +287,12 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 ## 1!D - 1!H
 1!H is !H or ANY INV+
 
- - 1!S: 4!S, 5+!D unless =4144
- - 1NT: 5+!D, 4+!C
- - 2!C: 5+!C, 4+!D
- - 2!D: 4!H, 5+!D, 1-!C
- - 2!H: 4!H, 5+!D, 1-!S
- - 2!S: !minors, 55/66
+ - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s)
+ - 1NT: [5+!D, 4+!C](#1d---1h---1nt)
+ - 2!C: [5+!C, 4+!D](#1d---1h---2c)
+ - 2!D: [4!H, 5+!D, 1-!C](#1d---1h---2d2h)
+ - 2!H: [4!H, 5+!D, 1-!S](#1d---1h---2d2h)
+ - 2!S: [!minors, 55/66](#1d---1h---2s)
  - 2NT: =1444
    - 3!C/!S: !C/!D keycard
    - 3!D: INV+ !H keycard
@@ -454,7 +453,7 @@ We encourage to bid on with 3!S.
  - 1NT: 3-!S, 4!H
  - 2!C: 5+!C, 4!D
  - 2!D: 5+!D, 4!C
- - 2!H: max, 31(45)?
+ - 2!H: max, =31(45)?
    - 2!S: to play
    - 2NT: bid your minor
    - 3!S: INV?
