@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 1.1.0
+Version: 2.0.0
 
 # Glossary
  - ART: artificial
@@ -16,29 +16,24 @@ Version: 1.1.0
 
 # General Approach
 
- - 5 card Major, 1!C=16+; 1!D=1+!D, 11-15; 1NT=13-16, no 5M, no 6m, no (5422); 2!C=5!C+4M OR 6!C, 11-15.
+ - 5 card Major, 1!C=16+; 1!D=4+!D, 2 or 3 suited, 11-15; 1NT=13-16, no 5M, no 6m, no (5422); 2!C=5!C+4M OR 6!C, 11-15;2!D=single suited 6+!D, 11-15.
  - Transfer GF responses to 1!C
  - INV+ Relay after 1 level opening (excluding 1!C), relay twice is GF. Most of other bids are (6)8-11 NAT, NF.
-   - 1!D - 1!H: 4!H weak OR ART GF
+   - 1!D - 1!H: 4!H weak OR ART INV+
    - 1M - 2!C: ART INV+
   
 # Opening structure
 
- - 1!C: 16+ semi-bal, or 17+ bal
- - 1!D: can include
-   - 11-12 Perfect-BAL
-   - 6+!D
-   - 5!D + 4 other
-   - 5!C + no 4M
-   - any 3 suiter (including !D shortage)
-  - 1M: 11-15, 5M
-  - 1NT: 13-16, Perfect-BAL (minor 5332, 4432, 4333)
-  - 2!C: 11-15, 6+!C OR 5!C+4M
-  - 2!D: 11-15, 6+!D, no 4 card side suit
-  - 2!M: weak 2s
-  - 2NT: minors 55
-  - 3x: pre-empt of preference.
-  - 3NT: Gambling.
+ - 1!C: ART, 16+
+ - 1!D: 4+, 2 or 3 suited, 11-15
+ - 1M: 11-15, 5M
+ - 1NT: 12-15, BAL (minor 5332, 4432, 4333) or =4414, =2452
+ - 2!C: 11-15, 6+!C OR 5!C+4M
+ - 2!D: 11-15, 6+!D, no 4 card side suit
+ - 2!M: weak 2s
+ - 2NT: minors 55
+ - 3x: pre-empt of preference.
+ - 3NT: Gambling.
 
 # Table of Contents
 - [Natural Relay](#natural-relay)
@@ -62,6 +57,20 @@ Version: 1.1.0
   - [1!C - 2!D (6!H, void/bal), (R2!H)](#1c---2d-6h-voidbal-r2h)
 - [1!D Opening](#1d-opening)
   - [1!D - 1!H](#1d---1h)
+    - [1!D - 1!H - 1!S](#1d---1h---1s)
+      - [1!D - 1!H - 1!S - 1NT](#1d---1h---1s---1nt)
+    - [1!D - 1!H - 1NT](#1d---1h---1nt)
+    - [1!D - 1!H - 2!C](#1d---1h---2c)
+      - [1!D - 1!H - 1NT/2!C - 3NT](#1d---1h---1nt2c---3nt)
+      - [1!D - 1!H - 1NT/2!C - 2!C/2!D Relay](#1d---1h---1nt2c---2c2d-relay)
+    - [1!D - 1!H - 2!D/2!H](#1d---1h---2d2h)
+      - [2!S Relay after 541](#2s-relay-after-541)
+    - [1!D - 1!H - 2!S](#1d---1h---2s)
+      - [2NT Relay](#2nt-relay)
+    - [extreme shape keycard](#extreme-shape-keycard)
+  - [1!D - 1!S](#1d---1s)
+- [1NT Opening](#1nt-opening)
+  - [1NT - 2!C](#1nt---2c)
 - [2!C Opening](#2c-opening)
   - [2!C - 2!D](#2c---2d)
 - [2!D Opening](#2d-opening)
@@ -263,34 +272,240 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
  - 3!S: 5!S, implies 6!H, and high shortage, =5602
 
 # 1!D Opening
+1!D is 4+!D 2 or 3 suiter. Specifically 4!D(441), 5!D(440), and any !D two suiter.  
+
  - 1!H: weak NAT or INV+
- -  - 6-11, 4!H
- -  - 12+ INV+
- - 1NT: 8-11 Note: be prepared for a 11-12 bal NT or 2NT invite
- - 2m: 5-11, 5+
+   - 6-11, 4!H
+   - 12+ INV+
+ - 1!S: 4+!S, 6-11, NF
+ - 1NT: 8-11, encourage opener to rebid minors.
+ - 2!C: 5-11, 5+!C, !D tolerance
+ - 2/3!D: pre-emptive
  - 2M: 8-, 6+ suit. No game interest.
- - 2NT: INV opps 11-12
+ - 2NT: INV?
  - 3x: NAT, no game interest
 
 ## 1!D - 1!H
-The opener have 6 types of hands.
-1. 11-12 Perfect-BAL
-2. 6+!D
-3. 5+!D + 4M
-4. Both minors
-5. 4441 (including !D shortage)
-6. 5440 with 5!D
+1!H is !H or ANY INV+
 
-Principal: always show majors first ignore NT and H fit. 
+ - 1!S: 4!S, 5+!D unless =4144
+ - 1NT: 5+!D, 4+!C
+ - 2!C: 5+!C, 4+!D
+ - 2!D: 4!H, 5+!D, 1-!C
+ - 2!H: 4!H, 5+!D, 1-!S
+ - 2!S: !minors, 55/66
+ - 2NT: =1444
+   - 3!C/!S: !C/!D keycard
+   - 3!D: INV+ !H keycard
+   - 3!H: To play
+ - 3!C: =4441
+   - 3!H: To play
+   - 3!D: INV+ !H keycard
 
- - 1!S: 4!S, may have 4!H
- - 1NT: no 4M. 
- - 2!C: 5!C + 4+!D
- - 2!D: 6+!D OR 5!D+4!C
- - 2!H: 4!H, no 4!S
- - 2!S,3m: 4441, max (14-15), go through 1!S/2!H if min
- - 3M/4!C: 4450
- - 2NT/3!D/3NT: D
+### 1!D - 1!H - 1!S
+1!S: 4+S, deny 4!H. 
+
+ - 1NT: **Relay**, __could__ be **Weak** (5+!H), F1
+ - 2!C: NAT, weak, NF (Worst case =2434)
+ - 2!D: To play
+ - 2!H: To play. **NOT** recommended
+ - 2!S: pre-emptive
+ - 2NT: INV. **NOT** recommended
+
+#### 1!D - 1!H - 1!S - 1NT
+**Relay**, __could__ be **Weak** (with 5+!H), F1
+
+ - 2!C: =4144
+   - 2!D/2!H: To play
+   - 2!S/3!C/3!D: keycard
+   - 2NT/3!H/3!S: INV
+   - 3NT: To play
+ - 2!D: **1-!H**, 5+!D (cannot skip 2!D for weak !H)
+   - 2!H: To play
+   - 2!S: [GF Relay](#2s-relay-after-541)
+   - 2NT/3!D: INV/!D INV, could play 3NT
+ - 2!H: **2-3!H**, 1-!C, 5+!D
+   - 2!S: [GF Relay](#2s-relay-after-541)
+   - 2NT/3!D: INV/!D INV, could play 3NT
+   - 3!C: 5!H INV
+   - 3!H: 6+!H INV
+ - 2!S: 7+!D, max (R2NT)
+   - 3!C: 8+ (R3!D for !H/!C void)
+   - 3!D/3!H/3!S: =4171/=4072/=4270
+
+### 1!D - 1!H - 1NT
+1NT: 5+!D, 4+!C.
+
+Responses:
+ - [2!C relay](#1d---1h---1nt2c---2c2d)
+ - 2!D/2!H/3!C: to play
+ - **2!S: INV for !C**
+ - 2NT: INV for NT
+   - 3!C/3!D: NAT, min
+   - 3!H/3!S: longer tied minor, max
+   - 3NT: To play
+ - 3!D: INV for !D
+ - 3!M: splinter INV for either minor
+   - 4!C: sign off, P/C
+ - 3NT: To play
+
+### 1!D - 1!H - 2!C
+2!C: 5+!C, 4+!D.
+
+Responses:
+ - [2!D relay](#1d---1h---1nt2c---2c2d)
+ - 2!H/3!D: to play
+ - **2!S: INV for !D**
+ - 2NT: INV for NT
+   - 3!C/3!D: NAT, min
+   - 3!H/3!S: longer tied minor, max
+   - 3NT: To play
+ - 3!C: INV for !C
+ - 3!M: splinter INV for either minor
+   - 4!C: sign off, P/C
+ - 3NT: To play
+
+#### 1!D - 1!H - 1NT/2!C - 3NT
+Responder picks 3NT as contract. Opener may correct with 65+/74+.
+
+ - 4!m: 74+
+ - 4!om: 65+
+
+#### 1!D - 1!H - 1NT/2!C - 2!C/2!D Relay
+Opener is (45+) in the minors. 
+
+ - 1NT = longer !D
+ - 2!C = longer !C
+ 
+Followed by GF relay. Notes: highly recommand to swap 2!M with 3!m
+
+ - (2!C) 2!D: =2254, does not want to declare NT.
+   - 2!H: forces 2!S
+     - 2!S
+       - 2NT: keycard in !D
+   - 2NT: keycard in !C
+   - 2!S/3!C: keycard in !H/!S
+ - 2!H/2!S: shortage. =31(45);=13(45)
+ - 2NT: =22(45)
+ - 3!C: 64 (R3!D)
+   - 3!H/3!S: shortage. =21(46);=12(46)
+   - 3NT: !H void. =30(46);
+   - 4!C: !S void. =03(46);
+     - 4!D: longer minor keycard
+     - 4!H: To play
+     - 4!S: shorter minor keycard
+ - 3!D: 65 (R3!H)
+   - 3!S: =02(56)
+   - 3NT: =11(56)
+   - 4!C: =20(56)
+ - 3!H/3!S/3NT: 74, void/2 singletons. =02(47)/=20(47)/=11(47).
+
+### 1!D - 1!H - 2!D/2!H
+ - 2!D: 4+!H, 5+!D, 1-!C
+ - 2!H: 4+!H, 5+!D, 1-!S
+
+Responses: 
+
+ - (2!D) 2!H: To play
+ - 2!S: [GF Relay](#2s-relay-after-541)
+ - 2NT/3!D/3!H: INV
+ - (2!D, 1-!C):
+   - 3!C: 5!S INV
+   - 3!S: 6!S INV
+ - (2!H, 1-!S):
+   - 3!C/3!S: NAT INV
+ - 3NT: To play
+
+#### 2!S Relay after 541
+ - 2NT: void (R3!C)
+   - 3!D/!H/!S/NT: 0454/0463/0472
+ - 3!C/!D/!H/!S: 1453/1462/1471/1480
+
+### 1!D - 1!H - 2!S
+2!S: !minors, 55/66
+
+Responses:
+
+ - 2NT: GF Relay
+ - 3!m: To play
+ - 3!M: Tied minor INV
+ - 3NT: To play
+
+#### 2NT Relay
+
+ - 3!m: tied !M shortage. =2155/=1255
+ - 3!M: void. =3055/0355
+ - 3NT/4!C: 66. =1066/=0166
+
+### extreme shape keycard
+After opener shows at least 65+ in two known suits with known shortage, 4-way RKCB is replaced by 6-key keycard. Responses are: 
+
+ - +1: 1/4
+   - Q resopnse: 0/1/2
+ - +2: 0/3/6
+   - Q resopnse: 0/1/2
+ - +3: 2/5 with 0 Q
+ - +4: 2/5 with 1 Q
+ - +5: 2/5 with 2 Qs
+
+## 1!D - 1!S
+We encourage to bid on with 3!S.
+
+ - 1NT: 3-!S, 4!H
+ - 2!C: 5+!C, 4!D
+ - 2!D: 5+!D, 4!C
+ - 2!H: max, 31(45)?
+   - 2!S: to play
+   - 2NT: bid your minor
+   - 3!S: INV?
+ - 2!S: 4252 or min?
+   - 2NT: shortage enquiry
+   - 3!C: shortage
+   - 3!D: min, 4252
+   - 3!H: shortage
+   - 3!S: max, 4252
+ - 2NT: !minors 55+
+   - 3!M: tied minor INV?
+ - 3!C: max, splinter
+ - 3!D: 4!S, 6+!D
+ - 3!H: max, splinter
+ - 3!S: max, H void?
+
+# 1NT Opening
+First response
+
+ - 2!C: Stayman. Does not promise 4!M if GF.
+ - 2!D: !H
+ - 2!H: !S
+ - 2!S: Range finder.
+ - 2NT: single suited minor
+ - 3!C: !minors
+
+## 1NT - 2!C
+ - 2!D: no 4!M (R2!S)
+   - 2NT: 5!C, 5(332) or **=2245**
+   - 3!C: 5!D, 5(332)
+   - 3!D: =33(43)
+   - 3!H: =2344
+   - 3!S: =3244
+   - 3NT: **=2254**
+ - 2!H: 4!H (R2!S)
+   - 2NT: =3433
+   - 3!C: 4!C (R3!D)
+     - 3!H: 3!D, =2434
+     - 3!S: 3!S, =3424
+     - 3NT: **4!S** = 4414
+   - 3!D: 4!D (R3!H)
+   - 3!H: 4!S, 3!C
+   - 3!S: 4!S, 3!D
+   - 3NT: **=2452**
+ - 2!S: 4!S (R3!C)
+   - 3!D: 4!D
+   - 3!H: **4!C (R3!S)**
+     - 3NT: =4234
+     - 4!C: =4324
+   - 3!S: **=4252**
+   - 3NT: =4333
 
 # 2!C Opening
 6+!C or 5+!C + 4!M, 11-15.
@@ -298,7 +513,7 @@ Principal: always show majors first ignore NT and H fit.
 First response:
 
  - 2!D: ART, INV+, relay
- - 2!M: NAT, nf
+ - 2!M: NAT, NF
  - 2NT: bal, INV
  - 3!C: pre-emptive
  - 3!D: pre-emptive
