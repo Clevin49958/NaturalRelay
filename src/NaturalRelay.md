@@ -321,14 +321,14 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 ## 1!D - 1!H
 1!H is !H or ANY INV+
 
- - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s)
+ - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s), [(weak+, F1, R1NT)](#1d---1h---1s---1nt)
  - 1NT: [4!H, 5+!D, 2-!C](#1d---1h---1nt)
-   - 2!C: weak+, F1 relay
+   - 2!C: weak+, F1 Relay
      - 2!D: =2452
-     - 2!H: 1-!C
- - 2!C: [5+!C, 4+!D](#1d---1h---2c)
- - 2!D: [5+!D, 4+!C](#1d---1h---2d2h)
- - 2!H: [4!H, 5+!D, 1-!S](#1d---1h---2d2h)
+     - 2!H: 1-!C [(GF 541 R2!S)](#2s-relay-after-541)
+ - 2!C: [5+!C, 4+!D](#1d---1h---2c) [(GF 54 R2!S)](#2s-relay-after-54)
+ - 2!D: [5+!D, 4+!C](#1d---1h---2d2h) [(GF 54 R2!S)](#2s-relay-after-54)
+ - 2!H: [4!H, 5+!D, 1-!S](#1d---1h---2d2h) [(GF 541 R2!S)](#2s-relay-after-541)
  - 2!S: [!minors, 55/66](#1d---1h---2s)
  - 2NT: =1444
    - 3!C/!S: !C/!D keycard
@@ -354,8 +354,10 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
  - 2!C: =4144
    - Pass: weak !C
    - 2!D/2!H: To play
-   - 2!S/3!C/3!D: keycard
-   - 2NT/3!H/3!S: INV
+   - 2!S: puppet 2NT for 4 way keycard
+     - 2NT: forced
+       - 3!C/!D/!H/!S: !S/!C/!D/!H keycard
+   - 2NT/3!C/3!D/3!H/3!S: INV
    - 3NT: To play
  - 2!D: **1-!H**, 5+!D (cannot skip 2!D for weak !H)
    - 2!H: To play
@@ -377,7 +379,10 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 Responses:
  - 2!C: relay, could be weak, F1.
    - 2!D: =2452
-     - 2!S: keycard?
+     - 2!H: To play
+     - 2!S: puppet 2NT for 4 way keycard
+       - 2NT: forced
+         - 3!C/!D/!H/!S: !D/!H/!S/!C keycard
    - 2!H: 1-!C
      - 2!S: [541 GF Relay](#2s-relay-after-541)
  - 2!D/2!H: to play
