@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 2.1.0
+Version: 2.2.0
 
 # Glossary
  - ART: artificial
@@ -63,11 +63,11 @@ Version: 2.1.0
     - [1!D - 1!H - 1!S](#1d---1h---1s)
       - [1!D - 1!H - 1!S - 1NT](#1d---1h---1s---1nt)
     - [1!D - 1!H - 1NT](#1d---1h---1nt)
-    - [1!D - 1!H - 2!C](#1d---1h---2c)
-      - [1!D - 1!H - 1NT/2!C - 3NT](#1d---1h---1nt2c---3nt)
-      - [1!D - 1!H - 1NT/2!C - 2!C/2!D Relay](#1d---1h---1nt2c---2c2d-relay)
-    - [1!D - 1!H - 2!D/2!H](#1d---1h---2d2h)
-      - [2!S Relay after 541](#2s-relay-after-541)
+    - [1!D - 1!H - 2!C/2!D](#1d---1h---2c2d)
+      - [1!D - 1!H - 2!C/2!D - 3NT](#1d---1h---2c2d---3nt)
+    - [1!D - 1!H - 2!H](#1d---1h---2h)
+    - [2!S Relay after 54](#2s-relay-after-54)
+    - [2!S Relay after 541](#2s-relay-after-541)
     - [1!D - 1!H - 2!S](#1d---1h---2s)
       - [2NT Relay](#2nt-relay)
     - [extreme shape keycard](#extreme-shape-keycard)
@@ -322,9 +322,12 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 1!H is !H or ANY INV+
 
  - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s)
- - 1NT: [5+!D, 4+!C](#1d---1h---1nt)
+ - 1NT: [4!H, 5+!D, 2-!C](#1d---1h---1nt)
+   - 2!C: weak+, F1 relay
+     - 2!D: =2452
+     - 2!H: 1-!C
  - 2!C: [5+!C, 4+!D](#1d---1h---2c)
- - 2!D: [4!H, 5+!D, 1-!C](#1d---1h---2d2h)
+ - 2!D: [5+!D, 4+!C](#1d---1h---2d2h)
  - 2!H: [4!H, 5+!D, 1-!S](#1d---1h---2d2h)
  - 2!S: [!minors, 55/66](#1d---1h---2s)
  - 2NT: =1444
@@ -338,7 +341,7 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 ### 1!D - 1!H - 1!S
 1!S: 4+S, deny 4!H. 
 
- - 1NT: **Relay**, __could__ be **Weak** (5+!H), F1
+ - 1NT: **Relay**, __could__ be **Weak** (with 5+!H), F1
  - 2!C: NAT, weak, NF (Worst case =2434)
  - 2!D: To play
  - 2!H: To play. **NOT** recommended
@@ -349,16 +352,18 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 **Relay**, __could__ be **Weak** (with 5+!H), F1
 
  - 2!C: =4144
+   - Pass: weak !C
    - 2!D/2!H: To play
    - 2!S/3!C/3!D: keycard
    - 2NT/3!H/3!S: INV
    - 3NT: To play
  - 2!D: **1-!H**, 5+!D (cannot skip 2!D for weak !H)
    - 2!H: To play
-   - 2!S: [GF Relay](#2s-relay-after-541)
+   - 2!S: [541 GF Relay](#2s-relay-after-541)
    - 2NT/3!D: INV/!D INV, could play 3NT
  - 2!H: **2-3!H**, 1-!C, 5+!D
-   - 2!S: [GF Relay](#2s-relay-after-541)
+   - Pass: weak !H
+   - 2!S: [54? GF Relay](#2s-relay-after-54)
    - 2NT/3!D: INV/!D INV, could play 3NT
    - 3!C: 5!H INV
    - 3!H: 6+!H INV
@@ -367,89 +372,68 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
    - 3!D/3!H/3!S: =4171/=4072/=4270
 
 ### 1!D - 1!H - 1NT
-1NT: 5+!D, 4+!C.
+1NT: 4!H, 5+!D, 2-!C
 
 Responses:
- - [2!C relay](#1d---1h---1nt2c---2c2d-relay)
- - 2!D/2!H/3!C: to play
- - **2!S: INV for !C**
+ - 2!C: relay, could be weak, F1.
+   - 2!D: =2452
+     - 2!S: keycard?
+   - 2!H: 1-!C
+     - 2!S: [541 GF Relay](#2s-relay-after-541)
+ - 2!D/2!H: to play
+ - 2!S/3!C/3!D: NAT 5+/6+/3+ INV
  - 2NT: INV for NT
    - 3!C/3!D: NAT, min
    - 3!H/3!S: longer tied minor, max
    - 3NT: To play
- - 3!D: INV for !D
- - 3!M: splinter INV for either minor
-   - 4!C: sign off, P/C
  - 3NT: To play
 
-### 1!D - 1!H - 2!C
+### 1!D - 1!H - 2!C/2!D
 2!C: 5+!C, 4+!D.
 
+2!D: 5+!D, 4+!C.
+
 Responses:
- - [2!D relay](#1d---1h---1nt2c---2c2d-relay)
- - 2!H/3!D: to play
- - **2!S: INV for !D**
+ - 2!S: [54? GF Relay](#2s-relay-after-54)
+ - 2!D/2!H: to play
  - 2NT: INV for NT
    - 3!C/3!D: NAT, min
    - 3!H/3!S: longer tied minor, max
    - 3NT: To play
- - 3!C: INV for !C
+ - 3!C/!D: INV for !C/!D
  - 3!M: splinter INV for either minor
    - 4!C: sign off, P/C
  - 3NT: To play
 
-#### 1!D - 1!H - 1NT/2!C - 3NT
+
+#### 1!D - 1!H - 2!C/2!D - 3NT
 Responder picks 3NT as contract. Opener may correct with 65+/74+.
 
  - 4!m: 74+
  - 4!om: 65+
 
-#### 1!D - 1!H - 1NT/2!C - 2!C/2!D Relay
-Opener is (45+) in the minors. 
+### 1!D - 1!H - 2!H
+2!H: 4!H, 5+!D, 1-!S
 
- - 1NT = longer !D
- - 2!C = longer !C
- 
-Followed by GF relay.
-
- - (2!C) 2!D: =2254, does not want to declare NT.
-   - 2!H: forces 2!S
-     - 2!S
-       - 2NT: keycard in !D
-   - 2NT: keycard in !C
-   - 2!S/3!C: keycard in !H/!S
- - 2!H/2!S: shortage. =31(45);=13(45)
- - 2NT: =22(45)
- - 3!C: 64 (R3!D)
-   - 3!H/3!S: shortage. =21(46);=12(46)
-   - 3NT: !H void. =30(46);
-   - 4!C: !S void. =03(46);
-     - 4!D: longer minor keycard
-     - 4!H: To play
-     - 4!S: shorter minor keycard
- - 3!D: 65 (R3!H)
-   - 3!S: =02(56)
-   - 3NT: =11(56)
-   - 4!C: =20(56)
- - 3!H/3!S/3NT: 74, void/2 singletons. =02(47)/=20(47)/=11(47).
-
-### 1!D - 1!H - 2!D/2!H
- - 2!D: 4+!H, 5+!D, 1-!C
- - 2!H: 4+!H, 5+!D, 1-!S
-
-Responses: 
-
- - (2!D) 2!H: To play
- - 2!S: [GF Relay](#2s-relay-after-541)
- - 2NT/3!D/3!H: INV
- - (2!D, 1-!C):
-   - 3!C: 5!S INV
-   - 3!S: 6!S INV
- - (2!H, 1-!S):
-   - 3!C/3!S: NAT INV
+Responses:
+ - 2!S: [541 GF Relay](#2s-relay-after-541)
+ - 3!C/3!D/3!H: NAT 5+/3+/4+ INV
+ - 2NT: INV for NT
+   - 3!D: min NAT
+   - 3NT: max
+   - 3!C/3!S: max, shortage, with longer !D
  - 3NT: To play
 
-#### 2!S Relay after 541
+### 2!S Relay after 54
+
+ - 2NT: 54/65 (R3!C)
+   - 3!D: 65(20) (R3!H for void)
+   - 3!H/3!S/3NT: =3145/1345/2245
+ - 3!C: 64(21)/6511 (R3!D for shortage)
+ - 3!D: 6430 (R3!H for void)
+ - 3!H/3!S/3NT: 74, =0247/=2047/=1147
+
+### 2!S Relay after 541
  - 2NT: void (R3!C)
    - 3!D/!H/!S/NT: 0454/0463/0472
  - 3!C/!D/!H/!S: 1453/1462/1471/1480
