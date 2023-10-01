@@ -552,9 +552,9 @@ First response:
    - 3!S: =3226
    - 3NT: =2236
  - 3!C: min, 6+!C (R3!D: same as above)
- - 3!D: max, 6!C, 4!D
- - 3!H: max, 7330
- - 3!S: max, 7321
+ - 3!D: max, 7+!C, short !D
+ - 3!H: max, 7+!C, short !H
+ - 3!S: max, 7+!C, short !S
  - 3NT: max: 7222
 
 # 2!D Opening
