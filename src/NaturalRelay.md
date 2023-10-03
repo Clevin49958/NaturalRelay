@@ -26,12 +26,12 @@ Version: 2.2.0
 
  - 1!C: ART, 16+
  - 1!D: 4+, 2 or 3 suited, 11-15
- - 1M: 11-15, 5M
- - 1NT: 12-15, BAL (minor 5332, 4432, 4333) or =4414, =2452
- - 2!C: 11-15, 6+!C OR 5!C+4M
+ - 1!M: 11-15, 5!M
+ - 1NT: 12-15, BAL (minor 5332, 4432, 4333) or =4414
+ - 2!C: 11-15, 6+!C OR 5+!C4!M
  - 2!D: 11-15, 6+!D, no 4 card side suit
  - 2!M: weak 2s
- - 2NT: minors 55
+ - 2NT: !minors 55
  - 3x: pre-empt of preference.
  - 3NT: Gambling.
 
