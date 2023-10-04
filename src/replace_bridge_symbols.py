@@ -10,7 +10,9 @@ symbols = {
   "!S": "<font color=blue class=spade>&spades;</font>",
   "!M": "<font color=magenta class=major>M</font>",
   "!oM": "<font color=magenta class=major>oM</font>",
-  "!m": "<font color=grassgreen class=minor>m</font>"
+  "!minors": "<font color=grassgreen class=minor>minors</font>",
+  "!m": "<font color=grassgreen class=minor>m</font>",
+  "!om": "<font color=grassgreen class=minor>om</font>"
 }
 
 def generate_anchor_tags(input):
@@ -43,7 +45,7 @@ def generate_anchor_tags(input):
     input = re.sub(pattern, f"{heading_level} {anchor_tag} {heading_text}\n", input, count=1) # replace heading with anchor tag
   return input
 
-filename = "system"
+filename = "NaturalRelay"
 # Open the file in read and write mode
 with open(f"src/{filename}.md", "r+") as file:
   # Read the input string from the file
