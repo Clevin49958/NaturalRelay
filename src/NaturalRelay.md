@@ -312,7 +312,7 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
    - 12+ INV+
  - 1!S: 4+!S, 6-11, NF
  - 1NT: 8-11, encourage opener to rebid minors.
- - 2!C: 5-11, 5+!C, !D tolerance
+ - 2!C: 8-11, 5+!C, !D tolerance
  - 2/3!D: pre-emptive
  - 2M: 8-, 6+ suit. No game interest.
  - 2NT: INV?
@@ -326,10 +326,10 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
    - 2!C: weak+, F1 Relay
      - 2!D: =2452
      - 2!H: 1-!C [(GF 541 R2!S)](#2s-relay-after-541)
- - 2!C: [5+!C, 4+!D](#1d---1h---2c) [(GF 54 R2!S)](#2s-relay-after-54)
- - 2!D: [5+!D, 4+!C](#1d---1h---2d2h) [(GF 54 R2!S)](#2s-relay-after-54)
+ - 2!C: [5+!C, 4!D](#1d---1h---2c) [(GF 54 R2!S)](#2s-relay-after-54)
+ - 2!D: [5+!D, 4!C](#1d---1h---2d2h) [(GF 54 R2!S)](#2s-relay-after-54)
  - 2!H: [4!H, 5+!D, 1-!S](#1d---1h---2d2h) [(GF 541 R2!S)](#2s-relay-after-541)
- - 2!S: [!minors, 55/66](#1d---1h---2s)
+ - 2!S: [!minors, 5+5+](#1d---1h---2s)
  - 2NT: =1444
    - 3!C/!S: !C/!D keycard
    - 3!D: INV+ !H keycard
@@ -394,9 +394,9 @@ Responses:
  - 3NT: To play
 
 ### 1!D - 1!H - 2!C/2!D
-2!C: 5+!C, 4+!D.
+2!C: 5+!C, 4!D.
 
-2!D: 5+!D, 4+!C.
+2!D: 5+!D, 4!C.
 
 Responses:
  - 2!S: [54? GF Relay](#2s-relay-after-54)
@@ -412,10 +412,9 @@ Responses:
 
 
 #### 1!D - 1!H - 2!C/2!D - 3NT
-Responder picks 3NT as contract. Opener may correct with 65+/74+.
+Responder picks 3NT as contract. Opener may correct with 74+.
 
  - 4!m: 74+
- - 4!om: 65+
 
 ### 1!D - 1!H - 2!H
 2!H: 4!H, 5+!D, 1-!S
