@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 2.2.0
+Version: 2.2.1
 
 # Glossary
  - ART: artificial
@@ -431,11 +431,10 @@ Responses:
 
 ### 2!S Relay after 54
 
- - 2NT: 54/65 (R3!C)
-   - 3!D: 65(20) (R3!H for void)
-   - 3!H/3!S/3NT: =3145/1345/2245
- - 3!C: 64(21)/6511 (R3!D for shortage)
- - 3!D: 6430 (R3!H for void)
+ - 2NT: 54 (R3!C)
+   - 3!D/3!H/3!S: =2245/=3145/=1345
+ - 3!C: 64(21) (R3!D for shortage)
+ - 3!D: 64(30) (R3!H for void)
  - 3!H/3!S/3NT: 74, =0247/=2047/=1147
 
 ### 2!S Relay after 541
@@ -455,9 +454,16 @@ Responses:
 
 #### 2NT Relay
 
- - 3!m: tied !M shortage. =2155/=1255
- - 3!M: void. =3055/0355
- - 3NT/4!C: 66. =1066/=0166
+ - 3!C: 65 (R3!D)
+   - 3!H: 6!D (R3!S)
+     - 3NT: =1165
+     - 4!C: =2065
+     - 4!D: =0265
+   - 3!S: =0256
+   - 3NT: =1156
+   - 4!C: =2056
+ - 3!D/3!H: =1255/=2155
+ - 3!S/3NT: =0355/=3055
 
 ### extreme shape keycard
 After opener shows at least 65+ in two known suits with known shortage, 4-way RKCB is replaced by 6-key keycard. Responses are: 
