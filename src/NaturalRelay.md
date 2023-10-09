@@ -61,7 +61,8 @@ Version: 2.2.2
 - [1!D Opening](#1d-opening)
   - [1!D - 1!H](#1d---1h)
     - [1!D - 1!H - 1!S](#1d---1h---1s)
-      - [1!D - 1!H - 1!S - 1NT](#1d---1h---1s---1nt)
+      - [1!D - 1!H - 1!S - 2!C](#1d---1h---1s---2c)
+        - [54(2/3) GF Relay (1!D - 1!H - 1!S - 2!C - 2!H - 2!S)](#5423-gf-relay-1d---1h---1s---2c---2h---2s)
     - [1!D - 1!H - 1NT](#1d---1h---1nt)
     - [1!D - 1!H - 2!C/2!D](#1d---1h---2c2d)
       - [1!D - 1!H - 2!C/2!D - 3NT](#1d---1h---2c2d---3nt)
@@ -321,7 +322,7 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 ## 1!D - 1!H
 1!H is !H or ANY INV+
 
- - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s), [(weak+, F1, R1NT)](#1d---1h---1s---1nt)
+ - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s), [(weak+, F1, R1NT)](#1d---1h---1s---2c)
  - 1NT: [4!H, 5+!D, 2-!C](#1d---1h---1nt)
    - 2!C: weak+, F1 Relay
      - 2!D: =2452
@@ -339,39 +340,37 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
    - 3!D: INV+ !H keycard
 
 ### 1!D - 1!H - 1!S
-1!S: 4+S, deny 4!H. 
+1!S: 4!S, deny 4!H. 
 
- - 1NT: **Relay**, __could__ be **Weak** (with 5+!H), F1
- - 2!C: NAT, weak, NF (Worst case =2434)
+ - 1NT: To play
+ - 2!C: **Relay**, __could__ be **Weak** (with 5+!H), F1
  - 2!D: To play
  - 2!H: To play. **NOT** recommended
  - 2!S: pre-emptive
  - 2NT: INV. **NOT** recommended
 
-#### 1!D - 1!H - 1!S - 1NT
+#### 1!D - 1!H - 1!S - 2!C
 **Relay**, __could__ be **Weak** (with 5+!H), F1
-
- - 2!C: =4144
-   - Pass: weak !C
-   - 2!D/2!H: To play
-   - 2!S: puppet 2NT for 4 way keycard
-     - 2NT: forced
-       - 3!C/!D/!H/!S: !S/!C/!D/!H keycard
-   - 2NT/3!C/3!D/3!H/3!S: INV
-   - 3NT: To play
- - 2!D: **1-!H**, 5+!D (cannot skip 2!D for weak !H)
+ - 2!D: **1-!H**, 4+!D (cannot skip 2!D for weak !H)
    - 2!H: To play
    - 2!S: [541 GF Relay](#2s-relay-after-541)
    - 2NT/3!D: INV/!D INV, could play 3NT
- - 2!H: **2-3!H**, 1-!C, 5+!D
+ - 2!H: **2-3!H**, 2-!C, 5+!D
    - Pass: weak !H
-   - 2!S: [54? GF Relay](#2s-relay-after-54)
+   - 2!S: [54(2/3) GF Relay](#5423-gf-relay-1d---1h---1s---2c---2h---2s)
    - 2NT/3!D: INV/!D INV, could play 3NT
    - 3!C: 5!H INV
    - 3!H: 6+!H INV
  - 2!S: 7+!D, max (R2NT)
    - 3!C: 8+ (R3!D for !H/!C void)
    - 3!D/3!H/3!S: =4171/=4072/=4270
+
+##### 54(2/3) GF Relay (1!D - 1!H - 1!S - 2!C - 2!H - 2!S)
+Opener: 5+!D, 4!S, 2~3!H, 2-!C
+
+ - 2NT: 3!H (R3!C)
+   - 3!D/3!H: =4531/=4630
+ - 3!C/3!D/3!H: =4522/=4621/=4720
 
 ### 1!D - 1!H - 1NT
 1NT: 4!H, 5+!D, 2-!C
