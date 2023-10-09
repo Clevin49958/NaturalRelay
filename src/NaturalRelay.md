@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 2.2.2
+Version: 2.2.3
 
 # Glossary
  - ART: artificial
@@ -322,7 +322,7 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 ## 1!D - 1!H
 1!H is !H or ANY INV+
 
- - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s), [(weak+, F1, R1NT)](#1d---1h---1s---2c)
+ - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s), [(weak+, F1, R2!C)](#1d---1h---1s---2c)
  - 1NT: [4!H, 5+!D, 2-!C](#1d---1h---1nt)
    - 2!C: weak+, F1 Relay
      - 2!D: =2452
