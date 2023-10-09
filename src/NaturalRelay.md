@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 2.2.1
+Version: 2.2.2
 
 # Glossary
  - ART: artificial
@@ -437,9 +437,9 @@ Responses:
  - 3!H/3!S/3NT: 74, =0247/=2047/=1147
 
 ### 2!S Relay after 541
- - 2NT: void (R3!C)
-   - 3!D/!H/!S/NT: 0454/0463/0472
- - 3!C/!D/!H/!S: 1453/1462/1471/1480
+ - 2NT: singleton (R3!C)
+   - 3!D/!H/!S/(3NT): 1453/1462/1471/(4144 if possible)
+ - 3!C/!D/!H/!S: 0454/0463/0472/0481
 
 ### 1!D - 1!H - 2!S
 2!S: !minors, 55/66
