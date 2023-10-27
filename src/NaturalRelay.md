@@ -72,6 +72,7 @@ Version: 2.2.3
     - [1!D - 1!H - 2!S](#1d---1h---2s)
       - [2NT Relay](#2nt-relay)
     - [extreme shape keycard](#extreme-shape-keycard)
+  - [P - 1!D - 1!H](#p---1d---1h)
   - [1!D - 1!S](#1d---1s)
 - [1NT Opening](#1nt-opening)
   - [1NT - 2!C](#1nt---2c)
@@ -474,16 +475,29 @@ After opener shows at least 65+ in two known suits with known shortage, 4-way RK
  - +4: 2/5 with 1 Q
  - +5: 2/5 with 2 Qs
 
+## P - 1!D - 1!H
+When partner is passed hand, the treatment is similar to 1!D - 1!S. Jump shifts are Splinters.
+
+ - 1!S: 4!S
+ - 1NT: =03(45)/=03(55/64)
+ - 2!m: both minors
+ - 2!H: 2452 or min
+ - 2!S: max, splinter
+ - 2NT: both minors
+ - 3!C: max, splinter
+ - 3!D: 4!H, 6+!D
+ - 3!H: max, !S void
+
 ## 1!D - 1!S
 We encourage to bid on with 3!S.
 
  - 1NT: 3-!S, 4!H
  - 2!C: 5+!C, 4!D
  - 2!D: 5+!D, 4!C
- - 2!H: max, =31(45)?
+ - 2!H: =31(45)/=30(55/64)
    - 2!S: to play
    - 2NT: bid your minor
-   - 3!S: INV?
+   - 3!S: INV
  - 2!S: 4252 or min?
    - 2NT: shortage enquiry
    - 3!C: shortage
@@ -495,7 +509,7 @@ We encourage to bid on with 3!S.
  - 3!C: max, splinter
  - 3!D: 4!S, 6+!D
  - 3!H: max, splinter
- - 3!S: max, H void?
+ - 3!S: max, !H void
 
 # 1NT Opening
 First response
