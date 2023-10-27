@@ -2,7 +2,7 @@
 
 Author: Kevin Hu and Jerry Chen
 
-Version: 2.2.1
+Version: 2.2.3
 
 # Glossary
  - ART: artificial
@@ -61,7 +61,8 @@ Version: 2.2.1
 - [1!D Opening](#1d-opening)
   - [1!D - 1!H](#1d---1h)
     - [1!D - 1!H - 1!S](#1d---1h---1s)
-      - [1!D - 1!H - 1!S - 1NT](#1d---1h---1s---1nt)
+      - [1!D - 1!H - 1!S - 2!C](#1d---1h---1s---2c)
+        - [54(2/3) GF Relay (1!D - 1!H - 1!S - 2!C - 2!H - 2!S)](#5423-gf-relay-1d---1h---1s---2c---2h---2s)
     - [1!D - 1!H - 1NT](#1d---1h---1nt)
     - [1!D - 1!H - 2!C/2!D](#1d---1h---2c2d)
       - [1!D - 1!H - 2!C/2!D - 3NT](#1d---1h---2c2d---3nt)
@@ -71,6 +72,7 @@ Version: 2.2.1
     - [1!D - 1!H - 2!S](#1d---1h---2s)
       - [2NT Relay](#2nt-relay)
     - [extreme shape keycard](#extreme-shape-keycard)
+  - [P - 1!D - 1!H](#p---1d---1h)
   - [1!D - 1!S](#1d---1s)
 - [1NT Opening](#1nt-opening)
   - [1NT - 2!C](#1nt---2c)
@@ -321,7 +323,7 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
 ## 1!D - 1!H
 1!H is !H or ANY INV+
 
- - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s), [(weak+, F1, R1NT)](#1d---1h---1s---1nt)
+ - 1!S: [4!S, 5+!D unless =4144](#1d---1h---1s), [(weak+, F1, R2!C)](#1d---1h---1s---2c)
  - 1NT: [4!H, 5+!D, 2-!C](#1d---1h---1nt)
    - 2!C: weak+, F1 Relay
      - 2!D: =2452
@@ -339,39 +341,37 @@ Transfer to 1NT shows a balanced hand. This could include perfectly balanced one
    - 3!D: INV+ !H keycard
 
 ### 1!D - 1!H - 1!S
-1!S: 4+S, deny 4!H. 
+1!S: 4!S, deny 4!H. 
 
- - 1NT: **Relay**, __could__ be **Weak** (with 5+!H), F1
- - 2!C: NAT, weak, NF (Worst case =2434)
+ - 1NT: To play
+ - 2!C: **Relay**, __could__ be **Weak** (with 5+!H), F1
  - 2!D: To play
  - 2!H: To play. **NOT** recommended
  - 2!S: pre-emptive
  - 2NT: INV. **NOT** recommended
 
-#### 1!D - 1!H - 1!S - 1NT
+#### 1!D - 1!H - 1!S - 2!C
 **Relay**, __could__ be **Weak** (with 5+!H), F1
-
- - 2!C: =4144
-   - Pass: weak !C
-   - 2!D/2!H: To play
-   - 2!S: puppet 2NT for 4 way keycard
-     - 2NT: forced
-       - 3!C/!D/!H/!S: !S/!C/!D/!H keycard
-   - 2NT/3!C/3!D/3!H/3!S: INV
-   - 3NT: To play
- - 2!D: **1-!H**, 5+!D (cannot skip 2!D for weak !H)
+ - 2!D: **1-!H**, 4+!D (cannot skip 2!D for weak !H)
    - 2!H: To play
    - 2!S: [541 GF Relay](#2s-relay-after-541)
    - 2NT/3!D: INV/!D INV, could play 3NT
- - 2!H: **2-3!H**, 1-!C, 5+!D
+ - 2!H: **2-3!H**, 2-!C, 5+!D
    - Pass: weak !H
-   - 2!S: [54? GF Relay](#2s-relay-after-54)
+   - 2!S: [54(2/3) GF Relay](#5423-gf-relay-1d---1h---1s---2c---2h---2s)
    - 2NT/3!D: INV/!D INV, could play 3NT
    - 3!C: 5!H INV
    - 3!H: 6+!H INV
  - 2!S: 7+!D, max (R2NT)
    - 3!C: 8+ (R3!D for !H/!C void)
    - 3!D/3!H/3!S: =4171/=4072/=4270
+
+##### 54(2/3) GF Relay (1!D - 1!H - 1!S - 2!C - 2!H - 2!S)
+Opener: 5+!D, 4!S, 2~3!H, 2-!C
+
+ - 2NT: 3!H (R3!C)
+   - 3!D/3!H: =4531/=4630
+ - 3!C/3!D/3!H: =4522/=4621/=4720
 
 ### 1!D - 1!H - 1NT
 1NT: 4!H, 5+!D, 2-!C
@@ -437,9 +437,9 @@ Responses:
  - 3!H/3!S/3NT: 74, =0247/=2047/=1147
 
 ### 2!S Relay after 541
- - 2NT: void (R3!C)
-   - 3!D/!H/!S/NT: 0454/0463/0472
- - 3!C/!D/!H/!S: 1453/1462/1471/1480
+ - 2NT: singleton (R3!C)
+   - 3!D/!H/!S/(3NT): 1453/1462/1471/(4144 if possible)
+ - 3!C/!D/!H/!S: 0454/0463/0472/0481
 
 ### 1!D - 1!H - 2!S
 2!S: !minors, 55/66
@@ -475,16 +475,29 @@ After opener shows at least 65+ in two known suits with known shortage, 4-way RK
  - +4: 2/5 with 1 Q
  - +5: 2/5 with 2 Qs
 
+## P - 1!D - 1!H
+When partner is passed hand, the treatment is similar to 1!D - 1!S. Jump shifts are Splinters.
+
+ - 1!S: 4!S
+ - 1NT: =03(45)/=03(55/64)
+ - 2!m: both minors
+ - 2!H: 2452 or min
+ - 2!S: max, splinter
+ - 2NT: both minors
+ - 3!C: max, splinter
+ - 3!D: 4!H, 6+!D
+ - 3!H: max, !S void
+
 ## 1!D - 1!S
 We encourage to bid on with 3!S.
 
  - 1NT: 3-!S, 4!H
  - 2!C: 5+!C, 4!D
  - 2!D: 5+!D, 4!C
- - 2!H: max, =31(45)?
+ - 2!H: =31(45)/=30(55/64)
    - 2!S: to play
    - 2NT: bid your minor
-   - 3!S: INV?
+   - 3!S: INV
  - 2!S: 4252 or min?
    - 2NT: shortage enquiry
    - 3!C: shortage
@@ -496,7 +509,7 @@ We encourage to bid on with 3!S.
  - 3!C: max, splinter
  - 3!D: 4!S, 6+!D
  - 3!H: max, splinter
- - 3!S: max, H void?
+ - 3!S: max, !H void
 
 # 1NT Opening
 First response
